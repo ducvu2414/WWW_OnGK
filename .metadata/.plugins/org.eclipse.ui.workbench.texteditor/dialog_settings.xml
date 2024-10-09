@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="Sys"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="sys"/>
+			<item value="TENDM"/>
+			<item value="Sys"/>
+			<item value="maDanhMuc"/>
+			<item value="long"/>
+			<item value="int"/>
+		</list>
+		<list key="replacehistory">
+			<item value="TENDANHMUC"/>
+			<item value="maDM"/>
+			<item value="int"/>
+			<item value="long"/>
+		</list>
+	</section>
+</section>

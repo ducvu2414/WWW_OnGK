@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\HK7\WWW\BTTHTuan5\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1312784983.index
+3783912148.index
+2727362535.index
+3597128223.index
+1184462725.index
+3885932190.index
+2787652770.index

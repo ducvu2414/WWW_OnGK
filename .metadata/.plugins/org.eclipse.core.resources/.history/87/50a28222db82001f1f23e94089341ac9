@@ -1,0 +1,41 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ page import="java.util.List"%>
+<%@ page import="java.util.Map"%>
+<%@ page import="entities.NhaCungCap"%>
+<%@ page import="entities.DienThoai"%>
+
+<html>
+<head>
+<title>Danh Sách Điện Thoại Nhà Cung Cấp</title>
+</head>
+<body>
+	<h1>Danh Sách Điện Thoại Theo Nhà Cung Cấp</h1>
+
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Nhà cung cấp</th>
+
+				<th>Mã điện thoại</th>
+				<th>Tên điện thoại</th>
+				<th>Giá</th>
+				<th>Ngày nhập</th>
+				<th>Trạng thái</th>
+		</thead>
+
+		<tbody>
+			<c:forEach var="dt" items="${nhaCungCapDienThoais}">
+				<tr>
+					<td>${dt.maDienThoai}</td>
+					<td>${dt.tenDienThoai}</td>
+					<td>${dt.gia}</td>
+					<td>${dt.ngayNhap}</td>
+					<td>${dt.trangThai}</td>
+					<td>${dt.nhaCungCap.tenNhaCungCap}</td>
+				</tr>
+			</c:forEach>
+		</tbody>
+	</table>
+</body>
+</html>
